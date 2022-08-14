@@ -1,0 +1,276 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+h1 {
+  color: #9db0d1;
+  font-size: 60px;
+  font-family: 'Arapey';
+  font-weight: 400;
+  line-height: 66px;
+  text-align: center;
+  margin: 100px 0 50px 0;
+}
+
+
+h3 {
+  font-family: 'Verdana';
+  font-size: 20px;
+  width: 950px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+button {
+  background: #EBAC87;
+  border-radius: 10px;
+  border: 0;
+  padding: 24px 50px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Arapey;
+  font-size: 30px;
+  line-height: 1.07;
+} 
+
+.button-title {
+  margin: 50px auto;
+  display: block;
+}
+
+.navigation{
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+
+.elipse {
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  margin: 0 50px 0 0; 
+}
+
+.bullet {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #9DB0D1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.cloud-box {
+  height: 400px;
+  background:
+  url("../img/bg-cloud.png") repeat-x top / auto 200px,
+  linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 250px 120px 100px;
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.mboxes {
+background: #87C6EB;
+}
+
+.mountain-box {
+  display: flex;
+  justify-content: center;
+}
+
+.rectangle-box {
+  width: 350px;
+  height: 560px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin: 25px 75px 0 75px;
+}
+
+.elipse-1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(235, 172, 135, 0.4);
+  font-family: Verdana;
+  font-size: 30px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 270px 10px 20px;
+}
+
+.elipse-2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(235, 172, 135, 0.6);
+  font-family: Verdana;
+  font-size: 30px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 270px 10px 20px;
+}
+
+.elipse-3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ebac87;
+  font-family: Verdana;
+  font-size: 30px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 270px 10px 20px;
+}
+
+.img-1 {
+  width: 310px;
+  height: 310px;
+  background-color: #EBAC87;
+  margin: 0px 20px;
+}
+
+.mount-text {
+  font-family: Verdana;
+  font-size: 20px;
+  line-height: 24px;
+  width: 260px;
+  height: 120px;
+  text-align: left; 
+  margin: 20px 70px 20px 20px;
+}
+
+.important {
+	font-weight: bold;
+}
+
+.mountain-text {
+  width: 1350px;
+  margin: 0 auto;
+  background: url("../img/bg-mountain.png") no-repeat right / 600px 475px;
+}
+
+.title {
+  font-family: Arapey;
+  font-size: 40px;
+  line-height: 44px;
+  color: #fff;
+  width: 470px;
+  margin: 50px 0;
+}
+
+.title-text {
+  font-family: Verdana;
+  font-size: 20px;
+  width: 580px;
+}
+
+.button-question {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-mountain {
+  background-color: #fff;
+  color: #ebac87;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin: 50px 0;
+}
+
+.elipse-question {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ebac87;
+  font-family: Verdana;
+  font-size: 60px;
+  line-height: 73px;
+  color: #fff;
+  padding: 5px 25px;
+}
+
+.footer {
+  width: 1350px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+
+
+.icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+}
